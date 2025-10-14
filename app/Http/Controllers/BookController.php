@@ -1,0 +1,22 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+
+class BookController extends Controller
+{
+    public function index()
+    {
+        // Data buku (contoh statis)
+        $books = [
+            ['id' => 1, 'title' => 'Laskar Pelangi', 'author' => 'Andrea Hirata', 'year' => 2005],
+            ['id' => 2, 'title' => 'Bumi Manusia', 'author' => 'Pramoedya Ananta Toer', 'year' => 1980],
+            ['id' => 3, 'title' => 'Negeri 5 Menara', 'author' => 'Ahmad Fuadi', 'year' => 2009],
+            ['id' => 4, 'title' => 'Ayat-Ayat Cinta', 'author' => 'Habiburrahman El Shirazy', 'year' => 2004],
+        ];
+
+        // Mengirim data ke view
+        return view('book', ['books' => $books]);
+    }
+}
