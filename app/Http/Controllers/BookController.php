@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 
 class BookController extends Controller
 {
+<<<<<<< HEAD
     public function index()
     {
         // Data buku (contoh statis)
@@ -19,4 +20,7 @@ class BookController extends Controller
         // Mengirim data ke view
         return view('book', ['books' => $books]);
     }
+=======
+    //
+>>>>>>> 746499d (Tugas 2 Laravel)
 }

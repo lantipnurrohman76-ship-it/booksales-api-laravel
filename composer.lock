@@ -1055,6 +1055,7 @@
         },
         {
             "name": "laravel/framework",
+<<<<<<< HEAD
             "version": "v12.33.0",
             "source": {
                 "type": "git",
@@ -1065,6 +1066,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laravel/framework/zipball/124efc5f09d4668a4dc13f94a1018c524a58bcb1",
                 "reference": "124efc5f09d4668a4dc13f94a1018c524a58bcb1",
+=======
+            "version": "v12.34.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/framework.git",
+                "reference": "f9ec5a5d88bc8c468f17b59f88e05c8ac3c8d687"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/f9ec5a5d88bc8c468f17b59f88e05c8ac3c8d687",
+                "reference": "f9ec5a5d88bc8c468f17b59f88e05c8ac3c8d687",
+>>>>>>> 746499d (Tugas 2 Laravel)
                 "shasum": ""
             },
             "require": {
@@ -1176,7 +1189,11 @@
                 "league/flysystem-sftp-v3": "^3.25.1",
                 "mockery/mockery": "^1.6.10",
                 "opis/json-schema": "^2.4.1",
+<<<<<<< HEAD
                 "orchestra/testbench-core": "^10.6.5",
+=======
+                "orchestra/testbench-core": "^10.7.0",
+>>>>>>> 746499d (Tugas 2 Laravel)
                 "pda/pheanstalk": "^5.0.6|^7.0.0",
                 "php-http/discovery": "^1.15",
                 "phpstan/phpstan": "^2.0",
@@ -1270,7 +1287,11 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
+<<<<<<< HEAD
             "time": "2025-10-07T14:30:39+00:00"
+=======
+            "time": "2025-10-14T13:58:31+00:00"
+>>>>>>> 746499d (Tugas 2 Laravel)
         },
         {
             "name": "laravel/prompts",
@@ -1333,6 +1354,7 @@
         },
         {
             "name": "laravel/serializable-closure",
+<<<<<<< HEAD
             "version": "v2.0.5",
             "source": {
                 "type": "git",
@@ -1343,6 +1365,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laravel/serializable-closure/zipball/3832547db6e0e2f8bb03d4093857b378c66eceed",
                 "reference": "3832547db6e0e2f8bb03d4093857b378c66eceed",
+=======
+            "version": "v2.0.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/serializable-closure.git",
+                "reference": "038ce42edee619599a1debb7e81d7b3759492819"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/serializable-closure/zipball/038ce42edee619599a1debb7e81d7b3759492819",
+                "reference": "038ce42edee619599a1debb7e81d7b3759492819",
+>>>>>>> 746499d (Tugas 2 Laravel)
                 "shasum": ""
             },
             "require": {
@@ -1390,7 +1424,11 @@
                 "issues": "https://github.com/laravel/serializable-closure/issues",
                 "source": "https://github.com/laravel/serializable-closure"
             },
+<<<<<<< HEAD
             "time": "2025-09-22T17:29:40+00:00"
+=======
+            "time": "2025-10-09T13:42:30+00:00"
+>>>>>>> 746499d (Tugas 2 Laravel)
         },
         {
             "name": "laravel/tinker",
