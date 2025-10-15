@@ -72,6 +72,17 @@ return [
             'after_commit' => false,
         ],
 
+<<<<<<< HEAD
+=======
+        'failover' => [
+            'driver' => 'failover',
+            'connections' => [
+                env('QUEUE_CONNECTION', 'database'),
+                'sync',
+            ],
+        ],
+
+>>>>>>> 746499d (Tugas 2 Laravel)
     ],
 
     /*
